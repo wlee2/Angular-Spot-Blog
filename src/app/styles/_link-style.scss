@@ -1,0 +1,4 @@
+@mixin none-deco-link($color) {
+    text-decoration: none;
+    color: $color;
+}

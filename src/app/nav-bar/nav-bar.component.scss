@@ -1,0 +1,22 @@
+@import '../styles/link-style';
+
+.icon {
+    padding: 0 14px;
+}
+  
+.spacer {
+    flex: 1 1 auto;
+}
+
+.nav {
+   a {
+        @include none-deco-link(black);
+        .home-nav-item{
+            font-size: 40px;
+        }
+        
+        .nav-item {
+            font-size: 20px;
+        }
+   }
+}

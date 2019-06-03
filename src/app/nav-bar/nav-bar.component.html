@@ -1,0 +1,20 @@
+<mat-toolbar class="nav">
+  <a routerLink="/">
+    <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+    &nbsp;
+    <span class="main-nav-item">Spot-Blog</span>
+  </a>
+  &nbsp;
+  <a routerLink="/blog">
+    <span class="nav-item">Blog</span>
+  </a>
+  <span class="spacer"></span>
+
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+
+
+</mat-toolbar>
